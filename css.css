@@ -1,0 +1,84 @@
+body{
+	background-color: #ff03b8;
+}
+
+
+.js{
+	text-align: center;
+	font-family: arial black;
+	padding-top: 100px;
+	width: 1320px;
+	height: 520px;
+	background-color: #ff03b8;
+	margin: 0 auto;
+	/* margin-top: 50px; */
+	top: 20px;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.btn {
+  /* background-color: #a203ff; /* #4CAF50; */ /* Green */
+  transition: 1s;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  outline: none;
+  margin-left: 7px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: relative;
+  display: inline-block;
+  font-size: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+  /* background-color: #a203ff; /* #4CAF50; */ /* Green */
+  transition: 1s;
+  transform: scale(1.9);
+}
+
+
+
+#btn {
+  background-color: #a203ff; /* #4CAF50; */ /* Green by Imran Sihab*/}
+#btn2 {
+  background-color: #f007dc; /* #4CAF50; */ /* Green by Imran Sihab*/}
+#btn3 {
+  background-color: #ff1500; /* #4CAF50; */ /* Green by Imran Sihab*/}
+#btn4 {
+  background-color: #03fc03;}
+#btn5{background-color: #fcf803;}
+#btn6{background-color: #8a8a84;}
+
+
+
+.rool{
+	text-align: center;
+}
+
+.h2{
+	text-align: center;
+	font-family: arial balck;
+	color: black;
+	text-shadow: 0 2px 5px rgab(0,0,0,0.5);
+}
+
+.h2 h2 span{
+	color: white;
+	font-family: arial balck;
+	text-shadow: 0 2px 5px rgab(0,0,0,0.5);
+	font-size: 2rem;
+}
+
+
+
+@media screen and (max-width:1320px){
+	.js{
+		width: 90%;
+	}
+}
